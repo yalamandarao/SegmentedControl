@@ -5,6 +5,7 @@ using System.Windows.Input;
 using SembcorpSecure.Data;
 using Xamarin.Forms;
 
+
 namespace SegmentedControl
 {
     public class SegmentedControlPageModel : FreshMvvm.FreshBasePageModel, INotifyPropertyChanged

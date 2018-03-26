@@ -2,7 +2,7 @@
 <ContentView 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="SegmentedControl.Mobile.Core.Controls.CustomSegmentedControl">
+    x:Class="SegmentedControl.Core.Controls.CustomSegmentedControl">
   <ContentView.Content>
     <RelativeLayout x:Name="relativeLayout" />
   </ContentView.Content>

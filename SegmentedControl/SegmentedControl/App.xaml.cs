@@ -8,7 +8,7 @@ namespace SegmentedControl
         {
             InitializeComponent();
 
-            MainPage = new SegmentedControlPage();
+            MainPage = FreshMvvm.FreshPageModelResolver.ResolvePageModel<SegmentedControlPageModel>();
         }
 
         protected override void OnStart()

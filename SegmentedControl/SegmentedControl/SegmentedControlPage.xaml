@@ -4,10 +4,13 @@
              xmlns:local="clr-namespace:SegmentedControl" 
              xmlns:controls="clr-namespace:SegmentedControl.Core.Controls;assembly=SegmentedControl"
              x:Class="SegmentedControl.SegmentedControlPage">
- <StackLayout
-                BackgroundColor="{StaticResource LightGrey}"
+          <StackLayout
+                BackgroundColor="Transparent"
+
+        VerticalOptions="CenterAndExpand"
                 Orientation="Vertical"
                 Spacing="0">
+       
                 <controls:CustomSegmentedControl 
                     HeightRequest="29"
                     Margin="16,8,16,8"
@@ -16,6 +19,8 @@
                     IndexChangedCommand="{Binding TabSelected}"/>
                 <BoxView
                     HeightRequest="0.5"
-                    BackgroundColor="{StaticResource SteelGrey}"/>
+                    BackgroundColor="Red"/>
             </StackLayout>
 </ContentPage>
+<!-- xmlns:controls="clr-namespace:SembcorpSecure.Mobile.Core.Controls;assembly=SembcorpSecure.Mobile" -->
+ 

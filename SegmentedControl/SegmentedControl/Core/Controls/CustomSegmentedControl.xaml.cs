@@ -4,9 +4,8 @@ using Xamarin.Forms;
 using System;
 using Xamarin.Forms.Xaml;
 using System.Windows.Input;
-using SegmentedControl.Core.Controls;
 
-namespace SegmentedControl.Mobile.Core.Controls
+namespace SegmentedControl.Core.Controls
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CustomSegmentedControl : ContentView
