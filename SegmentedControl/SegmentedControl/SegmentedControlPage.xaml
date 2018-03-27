@@ -17,10 +17,5 @@
                     ItemSource="{Binding TabTitles}"
                     SelectedIndex="{Binding SelectedTabIndex}"
                     IndexChangedCommand="{Binding TabSelected}"/>
-                <BoxView
-                    HeightRequest="0.5"
-                    BackgroundColor="Red"/>
             </StackLayout>
-</ContentPage>
-<!-- xmlns:controls="clr-namespace:SembcorpSecure.Mobile.Core.Controls;assembly=SembcorpSecure.Mobile" -->
- 
+</ContentPage> 

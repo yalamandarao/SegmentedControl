@@ -110,9 +110,40 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\tab_center_normal.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\tab_center_selected.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\tab_left_normal.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\tab_left_selected.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\tab_right_normal.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\tab_right_selected.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\tab_center_normal.imageset\tabTwo.png" />
+    <ImageAsset Include="Assets.xcassets\tab_center_normal.imageset\tabTwo%402x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_center_normal.imageset\tabTwo%403x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_center_selected.imageset\tabTwoActive.png" />
+    <ImageAsset Include="Assets.xcassets\tab_center_selected.imageset\tabTwoActive%402x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_center_selected.imageset\tabTwoActive%403x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_left_normal.imageset\tabOne.png" />
+    <ImageAsset Include="Assets.xcassets\tab_left_normal.imageset\tabOne%402x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_left_normal.imageset\tabOne%403x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_left_selected.imageset\tabOneActive.png" />
+    <ImageAsset Include="Assets.xcassets\tab_left_selected.imageset\tabOneActive%402x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_left_selected.imageset\tabOneActive%403x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_right_normal.imageset\tabThree.png" />
+    <ImageAsset Include="Assets.xcassets\tab_right_normal.imageset\tabThree%402x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_right_normal.imageset\tabThree%403x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_right_selected.imageset\tabThreeActive.png" />
+    <ImageAsset Include="Assets.xcassets\tab_right_selected.imageset\tabThreeActive%402x.png" />
+    <ImageAsset Include="Assets.xcassets\tab_right_selected.imageset\tabThreeActive%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Renderers\" />
+    <Folder Include="Assets.xcassets\tab_center_normal.imageset\" />
+    <Folder Include="Assets.xcassets\tab_center_selected.imageset\" />
+    <Folder Include="Assets.xcassets\tab_left_normal.imageset\" />
+    <Folder Include="Assets.xcassets\tab_left_selected.imageset\" />
+    <Folder Include="Assets.xcassets\tab_right_normal.imageset\" />
+    <Folder Include="Assets.xcassets\tab_right_selected.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -125,6 +156,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Renderers\ButtonRenderer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.280555\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.280555\build\netstandard1.0\Xamarin.Forms.targets')" />
